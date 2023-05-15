@@ -10,6 +10,11 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<div id="datetime">
+            <script>
+                setInterval("document.getElementById('datetime').innerHTML=new Date().toLocaleString();", 1000);
+            </script>
+        </div>
 <header>
     <div class="container" style="padding-right: 0px;padding-left: 0px;">
         <div class="main">
@@ -18,7 +23,6 @@
                    <span>zhiyin工具</span>
                 </a>
             </h1>
-
         </div>
 	</div>
 	<div class="not_operational"></div>
