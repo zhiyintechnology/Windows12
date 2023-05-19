@@ -580,4 +580,7 @@
 			right: 95px;
 		}
 	}
-	#ChatGPT{color: grey;font-size: 50%;}
+	#ChatGPT {
+		color: grey;
+		font-size: 50%;
+	}
